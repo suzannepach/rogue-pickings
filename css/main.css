@@ -1,0 +1,166 @@
+/***** BASE STYLES *****/
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;    
+    margin: 0;
+    padding: 50px 0 40px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 53px 0px 47px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+}
+
+/***** TOP SECTION *****/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+    height: auto;
+/*    float: left; */
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+    height: auto;
+/*    float: left; */
+}
+
+.main-title h2 {
+    color: #77a466;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.main-title p {
+    line-height: 25px;
+    padding: 0;
+}
+
+/***** BOTTOM SECTION *****/
+
+.section-one, .section-two, .section-three {
+    border-top: 1px solid #eeeeee;
+    float: left; 
+    height: auto;
+    width: 399px;
+}
+
+.section-one h4 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.section-two h4, .section-three h4 {
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #77a466;
+}
+
+.reviews {
+    line-height: 21px;
+    padding: 0 30px;
+}
+
+.address {
+    line-height: 24px;
+    padding: 0 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    border-top: 1px solid #eeeeee;
+    clear: both;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h3 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
+
+
